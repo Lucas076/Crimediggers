@@ -1,7 +1,7 @@
 # Crimediggers
-Dit is een uitwerking van de eerste 3 opdrachten van de nieuwe game gemaakt door de politie genaamd Crimediggers. De resterende opdrachten daar ben ik zelf nog mee bezig.
+Dit is een uitwerking van de eerste 4 opdrachten van de nieuwe game gemaakt door de politie genaamd Crimediggers. De resterende opdrachten daar ben ik zelf nog mee bezig.
 
-## Opdracht 1 - Camerabeelden
+## Objective 1 - Camerabeelden
 Wanneer je de camerabeelden aandachtig bekijkt zul je erachter komen dat Ulrieke in de volgende camera's op chronologische volgorde verschijnt:
 - TRH03
 - GNG04
@@ -9,7 +9,7 @@ Wanneer je de camerabeelden aandachtig bekijkt zul je erachter komen dat Ulrieke
 - GNG07
 - EXT02
 
-## Opdracht 2 - Kenteken auto
+## Objective 2 - Kenteken auto
 Je krijgt van de parkeergarage een `logs.csv` bestand. Een CSV bestand kan je openen met behulp van Microsoft Excel.
 1. Open het bestand `logs.csv` in Excel.
 2. Selecteer alles met behulp van de toetsen `Ctrl` + `A`.
@@ -28,7 +28,7 @@ Je bent opzoek naar 20 september 19:07.
 5. Sleep de optie `From Base64` naar de `Recipe`.
 6. Het kenteken van de grijze Tesla is `G-496-PX`.
 
-## Opdracht 3 - Data telefoon Ulrieke uitlezen
+## Objective 3 - IP-adres C&C server
 Deze opdracht heb ik uitgevoerd met behulp van [Kali Linux](https://kali.org).
 1. Download het bestand `phone_final.dd`.
 2. Maak een folder aan met behulp van het commando `mkdir /media/test`.
@@ -39,4 +39,16 @@ Deze opdracht heb ik uitgevoerd met behulp van [Kali Linux](https://kali.org).
 7. Decompileer dit bestand met behulp van deze website [APK Decompilers](https://www.apkdecompilers.com/).
 8. Navigeer naar de folder `sources` > `com` > `agilefaqs` > `chatapp`.
 9. Open het bestand `BackDoor.java` met een tekst editor.
-10. Het IP-adres van de server is `136.144.181.113`.
+10. Het IP-adres van de C&C server is `136.144.181.113`.
+
+## Objective 4 - Naam van de hacker
+In de vorige opdracht is ene IP-adres gevonden. Wanneer we naar dit IP-adres toegaan in een browser wordt ons verteld dat er op dat IP-adres 2 websites worden gehost genaamd `welingelichtebronnen.nl` en `huur-een-hacker.nl`.
+1. Gebruik een website directory bruteforce applicatie (bijvoorbeeld [Dirbuster](https://sourceforge.net/projects/dirbuster/)).
+2. Kies 1 van de woordenlijsten die met de applicatie geleverd worden en ga opzoek naar hidden directories die beginnen met een `.`.
+3. Al snel zul je de hidden directory `.git` vinden.
+4. Ga naar `welingelichtebronnen.nl/.git/config` en download het bestand.
+5. In bestand staat de naam en het e-mailadres van de hacker namelijk `Sp3xz0R@gmail.com`.
+6. Googelen op het e-mailadres heeft weinig zin dus we googelen op de gebruikersnaam `Sp3xz0R`.
+7. Je vindt een YouTube account met 2 videos van een hamsterkooi.
+8. Wanneer je bij deze [video](https://www.youtube.com/watch?v=LquXRhfIhR0) doorspoelt naar 19:54 zie je een pakket met een postlabel.
+9. De naam van de hacker is `Niko van der Spek`.
