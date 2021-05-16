@@ -1,4 +1,5 @@
 # Crimediggers
+Dit is een uitwerking van de eerste 3 opdrachten van de nieuwe game gemaakt door de politie genaamd Crimediggers. De resterende opdrachten daar ben ik zelf nog mee bezig.
 
 ## Opdracht 1 - Camerabeelden
 Wanneer je de camerabeelden aandachtig bekijkt zul je erachter komen dat Ulrieke in de volgende camera's op chronologische volgorde verschijnt:
