@@ -57,7 +57,7 @@ In de vorige opdracht heb je een IP-adres gevonden. Wanneer we naar dit IP-adres
 2. Kies 1 van de woordenlijsten die met de applicatie geleverd worden en ga opzoek naar hidden directories die beginnen met een `.`.
 3. Al snel zul je de hidden directory `.git` vinden.
 4. Ga naar `welingelichtebronnen.nl/.git/config` en download het bestand.
-5. In bestand staat de naam en het e-mailadres van de hacker namelijk `Sp3xz0R@gmail.com`.
+5. In het bestand staat de naam en het e-mailadres van de hacker namelijk `Sp3xz0R@gmail.com`.
 6. Googelen op het e-mailadres heeft weinig zin dus we googelen op de gebruikersnaam `Sp3xz0R`.
 7. Je vindt een YouTube account met 2 videos van een hamsterkooi.
 8. Wanneer je bij deze [video](https://www.youtube.com/watch?v=LquXRhfIhR0) doorspoelt naar 19:54 zie je een pakket met een postlabel.
