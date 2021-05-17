@@ -44,7 +44,7 @@ Deze opdracht heb ik uitgevoerd met behulp van [Kali Linux](https://kali.org).
 2. Maak een folder aan met behulp van het commando `mkdir /media/test`.
 3. Mount het bestand `phone_final.dd` in de aangemaakte folder met behulp van het commando `mount -o loop phone_final.dd /media/test`.
 4. Wanneer je de folder bekijkt zul je de data van een Android telefoon aantreffen.
-5. Na enige tijd zoeken val het je op dat er in de `app` folder een bestand staat met de naam `com.confengine.android_chat_app-rfVVPmV_y311ebcnNPd6rw==`.
+5. Na enige tijd zoeken valt het je op dat er in de `app` folder een bestand staat met de naam `com.confengine.android_chat_app-rfVVPmV_y311ebcnNPd6rw==`.
 6. In deze folder staat een APK bestand genaamd `base.apk`.
 7. Decompileer dit bestand met behulp van deze website [APK Decompilers](https://www.apkdecompilers.com/).
 8. Navigeer naar de folder `sources` > `com` > `agilefaqs` > `chatapp`.
