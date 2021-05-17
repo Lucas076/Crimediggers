@@ -1,5 +1,5 @@
 # Crimediggers
-Dit is een uitwerking van de eerste 4 opdrachten van de nieuwe game gemaakt door de politie genaamd Crimediggers. De resterende opdrachten daar ben ik zelf nog mee bezig.
+Dit is een uitwerking van de alle 10 opdrachten van de nieuwe game gemaakt door de politie genaamd Crimediggers.
 
 ## Objective 1 - Camerabeelden
 Wanneer je de camerabeelden aandachtig bekijkt zul je erachter komen dat Ulrieke in de volgende camera's op chronologische volgorde verschijnt:
@@ -66,3 +66,54 @@ Je krijgt een bestand met daarin 2 carimages. De bedoeling is om deze 2 bestande
 9. Importeer dit bestand in de website [GPS Visualiser](https://www.gpsvisualizer.com) en je krijgt een map te zien met GPS punten.
 10. Als je de punten bekijkt valt het je op dat er wordt gestopt bij een McDonalds in Breukelen.
 11. De coordinaten waar Ulrieke is uitgestapt is `52.171442, 4.989492`.
+
+## Objective 6 - Bitcoin Wallet adres achterhalen
+De politie heeft een digitale kopie gemaakt van de hacker zijn laptop. Bekijk deze files met behulp van [Autopsy](https://www.autopsy.com/).
+1. Unzip het `laptop.zip` bestand.
+2. Open Autopsy en maak een nieuwe case aan.
+3. Voeg het `laptop.e01` bestand toe als Data Source.
+4. Ga naar `Tools` > `Run Ingest Modules` > `laptop.e01`.
+5. Klik op `Keywoard Search` en vink het vakje aan bij `Email Adresses`.
+6. Druk op de knop `Finish` en laat Autopsy een tijdje draaien. Het kost tijd om het bestand uit te lezen.
+7. Na enige tijd vind je aan de rechterkant onder `Results` > `Email Messages` > `Default` > `Default`. Klik hierop en er zal een scherm verschijnen met een heleboel `main.mbox` bestanden.
+8. Wanneer je deze aandachtig bekijkt vind je uiteindelijk een gesprek tussen `lieszkeslie@hotmail.com` en de hacker `sp3xz0r@gmail.com`.
+9. Op een gegeven moment vind je het transactie ID van een Bitcoin betaling namelijk `b877db4e88835a061920eb0265ce57dd07a27f5456cbd7155d2946298d87128b`.
+10. Ga naar [Blockchain](https://www.blockchain.com) en vul het transactie ID in bij de zoekbalk.
+11. Het Bitcoin Wallet adres van de hacker is `3Mmbr7WmRG3VbARzE7Dz5JVs2YFpusnBE7`.
+
+## Objective 7 - Wachtwoord Ulrieke laptop
+De politie heeft een laptop gevonden van Ulrieke in het Van der Valk Hotel. Er zijn 2 foto's gemaakt door de recherche Samira. 1 met post-its en 1 van een inlogscherm van de laptop met als geheugensteun `miauw?`.
+1. Mount het bestand van objective 3 `phone_final.dd` naar `/media/test`.
+2. In de folder data > com.confengine.android_chat_app > databases bevindt zich een `crypt.db` bestand.
+3. Open het crypt.db bestand met behulp van [SQLite Browser](https://sqlitebrowser.org).
+4. Verander de tabel naar die van `messages` en je zult al snel zien dat er een hoop versleutelde berichten hierin staan.
+5. Exporteer de tabel `messages` naar een CSV bestand.
+6. Als je het gedecompileerde APK bestand nog kan herinneren weet je dat er naast het `BackDoor.java` bestand ook een `Crypter.java` bestand is.
+7. Maak een nieuw project aan in een Java IDE naar keuze. Ik heb gebruik gemaakt van [IntelliJ IDEA](https://www.jetbrains.com/idea).
+8. Zorg ervoor dat je het `Crypter.java` bestand kopieert naar je nieuwe project.
+9. Importeer ook het CSV bestand naar je nieuwe project.
+10. Importeer ook het android-util.jar bestand in je project wat je van [JAR-download](https://jar-download.com/artifacts/net.morimekta.utils/android-util/2.5.1/source-code) kan downloaden.
+11. Decodeer de berichten met behulp van je gemaakte script.
+12. Wanneer je door de berichten heen leest zul je al snel zien dat Ulrieke met de buurvrouw praat over haar kat. Herinner je je nog de hint van de laptop van Ulrieke?
+13. Het wachtwoord van Ulrieke haar laptop is `Jan-Peter`.
+
+## Objective 8 - Naam van de klokkenluider.
+Je ontvangt een kopie van Ulrieke haar bureaublad van haar laptop.
+1. Unzip het bestand `bureaublad-ulrieke.zip`.
+2. Wanneer je tussen de bestanden kijkt kom je er al snel achter dat het PDF bestand is vergrendeld met een wachtwoord.
+3. Als je tussen de gedecodeerde berichten kijkt van objective 7 zul je al snel een vreemde tekst zien.
+4. Het wachtwoord van het PDF bestand is `f>k3(298RfEp7vNw(`.
+5. We zijn opzoek naar iemand met initialen YY.
+6. De naam de klokkenluider is `Yimu Yi`.
+
+## Objective 9 - Locatie exit plan
+Je krijgt 2 bestanden van Samira. Het eerste bestand is de mailbox van de jurist. Het tweede bestand bevat foto's van het kantoor. Je hebt 10 minuten om de opdracht te voltooien.
+1. Wanneer je de foto's bekijkt zie je dat het gaat om golfkampioen worden in Hilversum en lid zijn van de vereniging vrienden van EHHV met als logo een vliegtuigpropeller.
+2. Zoek op Google naar `Hilversum EHHV`.
+3. De locatie van het exitplan is `Noodweg 49, Hilversum`.
+
+## Objective 10 - Call Sign helikopter
+Denk aan de tijd die je nog over hebt.
+1. Je krijgt een lijst met Call Signs.
+2. Voor deze opdracht heb ik helaas geen aanknopingspunt kunnen vinden wat leidt tot het juiste antwoord.
+3. De Call Sign van de helikopter is `PH-JJBW`.
