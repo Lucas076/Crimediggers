@@ -85,7 +85,7 @@ De politie heeft een digitale kopie gemaakt van de hacker zijn laptop. Bekijk de
 4. Ga naar `Tools` > `Run Ingest Modules` > `laptop.e01`.
 5. Klik op `Keywoard Search` en vink het vakje aan bij `Email Adresses`.
 6. Druk op de knop `Finish` en laat Autopsy een tijdje draaien. Het kost tijd om het bestand uit te lezen.
-7. Na enige tijd vind je aan de rechterkant onder `Results` > `Email Messages` > `Default` > `Default`. Klik hierop en er zal een scherm verschijnen met een heleboel `main.mbox` bestanden.
+7. Na enige tijd vind je aan de rechterkant onder `Results` > `Email Messages` > `Default` > `Default` resultaten. Klik hierop en er zal een scherm verschijnen met een heleboel `main.mbox` bestanden.
 8. Wanneer je deze aandachtig bekijkt vind je uiteindelijk een gesprek tussen `lieszkeslie@hotmail.com` en de hacker `sp3xz0r@gmail.com`.
 9. Op een gegeven moment vind je het transactie ID van een Bitcoin betaling namelijk `b877db4e88835a061920eb0265ce57dd07a27f5456cbd7155d2946298d87128b`.
 10. Ga naar [Blockchain](https://www.blockchain.com) en vul het transactie ID in bij de zoekbalk.
@@ -94,7 +94,7 @@ De politie heeft een digitale kopie gemaakt van de hacker zijn laptop. Bekijk de
 ## Objective 7 - Wachtwoord Ulrieke laptop
 De politie heeft een laptop gevonden van Ulrieke in het Van der Valk Hotel. Er zijn 2 foto's gemaakt door de recherche Samira. 1 met post-its en 1 van een inlogscherm van de laptop met als geheugensteun `miauw?`.
 1. Mount het bestand van objective 3 `phone_final.dd` naar `/media/test`.
-2. In de folder data > com.confengine.android_chat_app > databases bevindt zich een `crypt.db` bestand.
+2. In de folder `data` > `com.confengine.android_chat_app` > `databases` bevindt zich een `crypt.db` bestand.
 3. Open het crypt.db bestand met behulp van [SQLite Browser](https://sqlitebrowser.org).
 4. Verander de tabel naar die van `messages` en je zult al snel zien dat er een hoop versleutelde berichten hierin staan.
 5. Exporteer de tabel `messages` naar een CSV bestand.
