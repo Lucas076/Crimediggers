@@ -52,3 +52,17 @@ In de vorige opdracht is ene IP-adres gevonden. Wanneer we naar dit IP-adres toe
 7. Je vindt een YouTube account met 2 videos van een hamsterkooi.
 8. Wanneer je bij deze [video](https://www.youtube.com/watch?v=LquXRhfIhR0) doorspoelt naar 19:54 zie je een pakket met een postlabel.
 9. De naam van de hacker is `Niko van der Spek`.
+
+## Objective 5 - GPS coördinaten uitstappen Ulrieke
+Je krijgt een bestand met daarin 2 carimages. De bedoeling is om deze 2 bestanden te mounten en te assemblen omdat het RAID files zijn.
+1. Download het bestand `carimage.zip` en unzip het met het commando `unzip carimage.zip`.
+2. Maak 2 nieuwe folders aan met het commando `mkdir rawimage1` en `mkdir rawimage2`.
+3. Mount elke carimage naar elk zijn aparte aangemaakte folder met de commando's `sudo ewfmount carimage1.E01 rawimage1` en `sudo ewfmount carimage2.E01 rawimage2`.
+4. Maak vervolgens loop images met de commando's `sudo losetup /dev/loop1 rawimage1/ewf1` en `sudo losetup /dev/loop2 rawimage2/ewf1`.
+5. Nu combineer je de loop images met de commando's `sudo mdadm --assemble --run /dev/md0 /dev/loop1` en `sudo mdadm --assemble --run /dev/md0 /dev/loop2`.
+6. Als het gelukt is kun je deze folder nu mounten met het commando `sudo mount /dev/md0 /media/test`.
+7. Wanneer je in de gemounte folder kijkt tref je een bestandsysteem aan.
+8. Na enige tijd zoeken vind je in de folder `var` > `logs` een bestand genaamd `Car_gps.log`.
+9. Importeer dit bestand in de website [GPS Visualiser](https://www.gpsvisualizer.com) en je krijgt een map te zien met GPS punten.
+10. Als je de punten bekijkt valt het je op dat er wordt gestopt bij een McDonalds in Breukelen.
+11. De coordinaten waar Ulrieke is uitgestapt is `52.171442, 4.989492`.
