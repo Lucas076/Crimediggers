@@ -52,7 +52,7 @@ Deze opdracht heb ik uitgevoerd met behulp van [Kali Linux](https://kali.org).
 10. Het IP-adres van de C&C server is `136.144.181.113`.
 
 ## Objective 4 - Naam van de hacker
-In de vorige opdracht is ene IP-adres gevonden. Wanneer we naar dit IP-adres toegaan in een browser wordt ons verteld dat er op dat IP-adres 2 websites worden gehost genaamd `welingelichtebronnen.nl` en `huur-een-hacker.nl`.
+In de vorige opdracht heb je een IP-adres gevonden. Wanneer we naar dit IP-adres toegaan in een browser wordt ons verteld dat er op dat IP-adres 2 websites worden gehost genaamd `welingelichtebronnen.nl` en `huur-een-hacker.nl`.
 1. Gebruik een website directory bruteforce applicatie (bijvoorbeeld [Dirbuster](https://sourceforge.net/projects/dirbuster)).
 2. Kies 1 van de woordenlijsten die met de applicatie geleverd worden en ga opzoek naar hidden directories die beginnen met een `.`.
 3. Al snel zul je de hidden directory `.git` vinden.
