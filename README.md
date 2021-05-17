@@ -1,6 +1,16 @@
 # Crimediggers
 Dit is een uitwerking van de alle 10 opdrachten van de nieuwe game gemaakt door de politie genaamd Crimediggers.
 
+## Benodigdheden
+- Een laptop of computer.
+- Kennis van besturingssystemen en forensische kopieën.
+- Het programma [Autopsy](https://www.autopsy.com) (Windows versie).
+- Een virtuele machine met een linux distro (Ik gebruik zelf [Kali Linux](https://kali.org)).
+- Het programma [SQLite Browser](https://sqlitebrowser.org).
+- Het programma [Microsoft Excel](https://www.microsoft.com/nl-nl/microsoft-365/excel).
+- Het programma [DirBuster](https://sourceforge.net/projects/dirbuster).
+- Een Java IDE naar keuze (Ik gebruik zelf [IntelliJ IDEA](https://www.jetbrains.com/idea))
+
 ## Objective 1 - Camerabeelden
 Wanneer je de camerabeelden aandachtig bekijkt zul je erachter komen dat Ulrieke in de volgende camera's op chronologische volgorde verschijnt:
 - TRH03
@@ -43,7 +53,7 @@ Deze opdracht heb ik uitgevoerd met behulp van [Kali Linux](https://kali.org).
 
 ## Objective 4 - Naam van de hacker
 In de vorige opdracht is ene IP-adres gevonden. Wanneer we naar dit IP-adres toegaan in een browser wordt ons verteld dat er op dat IP-adres 2 websites worden gehost genaamd `welingelichtebronnen.nl` en `huur-een-hacker.nl`.
-1. Gebruik een website directory bruteforce applicatie (bijvoorbeeld [Dirbuster](https://sourceforge.net/projects/dirbuster/)).
+1. Gebruik een website directory bruteforce applicatie (bijvoorbeeld [Dirbuster](https://sourceforge.net/projects/dirbuster)).
 2. Kies 1 van de woordenlijsten die met de applicatie geleverd worden en ga opzoek naar hidden directories die beginnen met een `.`.
 3. Al snel zul je de hidden directory `.git` vinden.
 4. Ga naar `welingelichtebronnen.nl/.git/config` en download het bestand.
@@ -68,7 +78,7 @@ Je krijgt een bestand met daarin 2 carimages. De bedoeling is om deze 2 bestande
 11. De coordinaten waar Ulrieke is uitgestapt is `52.171442, 4.989492`.
 
 ## Objective 6 - Bitcoin Wallet adres achterhalen
-De politie heeft een digitale kopie gemaakt van de hacker zijn laptop. Bekijk deze files met behulp van [Autopsy](https://www.autopsy.com/).
+De politie heeft een digitale kopie gemaakt van de hacker zijn laptop. Bekijk deze files met behulp van [Autopsy](https://www.autopsy.com).
 1. Unzip het `laptop.zip` bestand.
 2. Open Autopsy en maak een nieuwe case aan.
 3. Voeg het `laptop.e01` bestand toe als Data Source.
@@ -117,3 +127,6 @@ Denk aan de tijd die je nog over hebt.
 1. Je krijgt een lijst met Call Signs.
 2. Voor deze opdracht heb ik helaas geen aanknopingspunt kunnen vinden wat leidt tot het juiste antwoord.
 3. De Call Sign van de helikopter is `PH-JJBW`.
+
+## Bronnen
+Ik heb deze objectives volbracht met dank aan: [Tweakers Forums](https://gathering.tweakers.net/forum/list_messages/2024940)
