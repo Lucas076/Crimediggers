@@ -114,11 +114,11 @@ Je ontvangt een kopie van Ulrieke haar bureaublad van haar laptop.
 3. Als je tussen de gedecodeerde berichten kijkt van objective 7 zul je al snel een vreemde tekst zien.
 4. Het wachtwoord van het PDF bestand is `f>k3(298RfEp7vNw(`.
 5. We zijn opzoek naar iemand met initialen YY.
-6. De naam de klokkenluider is `Yimu Yi`.
+6. De naam van de klokkenluider is `Yimu Yi`.
 
 ## Objective 9 - Locatie exit plan
 Je krijgt 2 bestanden van Samira. Het eerste bestand is de mailbox van de jurist. Het tweede bestand bevat foto's van het kantoor. Je hebt 10 minuten om de opdracht te voltooien.
-1. Wanneer je de foto's bekijkt zie je dat het gaat om golfkampioen worden in Hilversum en lid zijn van de vereniging vrienden van EHHV met als logo een vliegtuigpropeller.
+1. Wanneer je de foto's bekijkt zie je dat het gaat om golfkampioen worden in Hilversum en lid zijn van de vereniging Vrienden van EHHV met als logo een vliegtuigpropeller.
 2. Zoek op Google naar `Hilversum EHHV`.
 3. De locatie van het exitplan is `Noodweg 49, Hilversum`.
 
