@@ -1,5 +1,5 @@
 # Crimediggers
-Dit is een uitwerking van de alle 10 opdrachten van de nieuwe game gemaakt door de politie genaamd Crimediggers.
+Dit is een uitwerking van alle 10 opdrachten van de nieuwe game gemaakt door de politie genaamd Crimediggers.
 
 ## Benodigdheden
 - Een laptop of computer.
