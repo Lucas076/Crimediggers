@@ -125,8 +125,9 @@ Je krijgt 2 bestanden van Samira. Het eerste bestand is de mailbox van de jurist
 ## Objective 10 - Call Sign helikopter
 Denk aan de tijd die je nog over hebt.
 1. Je krijgt een lijst met Call Signs.
-2. Voor deze opdracht heb ik helaas geen aanknopingspunt kunnen vinden wat leidt tot het juiste antwoord.
-3. De Call Sign van de helikopter is `PH-JJBW`.
+2. De naam van de directeur is `Jan-Jaap Bleijenberg-Witteman`.
+3. Wanneer je alleen de initialen van zijn naam pakt krijg je `JJBW`.
+4. De Call Sign van de helikopter is `PH-JJBW`.
 
 ## Bronnen
 Ik heb deze objectives volbracht met dank aan: [Tweakers Forums](https://gathering.tweakers.net/forum/list_messages/2024940)
